@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce App</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://kit.fontawesome.com/0c644c5d91.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="header-container">
+        <div class="header">
+            <a class="logo-link" href="/index.html">
+                <div class="logo">SHOP<span class="logo-inner">LANE</span></div>
+            </a>
+            <nav id="nav-wrapper">
+                <a class="nav-link" href="/index.html#clothing">CLOTHING</a>
+                <a class="nav-link" href="/index.html#accessory">ACCESSORIES</a>
+            </nav>
+            <div class="search">
+                <i class="fa-solid fa-magnifying-glass icon-custom"></i>
+                <input id="input-field" type="text" placeholder="Search for Clothing and Accessories">
+            </div>
+
+            <div class="order-box">
+                <div class="order-icon">
+                    <i class="fa-solid fa-cart-shopping shoping-icon">
+                        <span class="cart-num">0</span>
+                    </i>
+                </div>
+                <div class="profile-image">
+                    <img class="img" src="https://test-hosting-8f9bf.web.app/assets/avatar.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- card details -->
+    <section id="container-checkout">
+        <div class="card-inner">
+            <p class="heading-checkout">Checkout</p>
+            <p class="total-item">Total Items: <span class="total-item-count">0</span></p>
+            <!-- dynamic content -->
+        </div>
+    
+        <div class="container-wrapper">
+            <div class="checkout-cart-right">
+                <h2 class="total-amount">total amount</h2>
+                <p class="show-total">amount: Rs <span class="total-amount-count">0</span></p>
+                <button class="btn" id="btn-click" type="submit">Place Order</button>
+                <p class="warning">Your cart is empty </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- foooter section -->
+
+    <section id="footer">
+        <div class="footer-row">
+            <ul>
+                <p class="footer-heading">ONLINE STORE</p>
+                <li>MEN CLOTHING</li>
+                <li>WOMEN CLOTHING</li>
+                <li>MEN ACCESSORIES</li>
+                <li>WOMEN ACCESSORIES</li>
+            </ul>
+        </div>
+        <div class="footer-row">
+            <ul>
+                <p class="footer-heading">HELPFUL LINKS</p>
+                <li>HOME</li>
+                <li>ABOUT</li>
+                <li>CONTACT</li>
+                <li>WOMEN ACCESSORIES</li>
+            </ul>
+        </div>
+        <div class="footer-row">
+            <ul>
+                <p class="footer-heading">PARTNERS</p>
+                <li>ZARA</li>
+                <li>PANTALOONS</li>
+                <li>LEVIS</li>
+                <li>UCB</li>
+                <li>+ MANY MORE</li>
+            </ul>
+        </div>
+        <div class="footer-row">
+            <ul>
+                <p class="footer-heading">ADDRESS</p>
+                <li>BUILDING 101</li>
+                <li>CENTRAL AVENUE</li>
+                <li>LA - 902722</li>
+                <li>UNITED STATES</li>
+            </ul>
+        </div>
+    </section>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
